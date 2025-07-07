@@ -51,4 +51,5 @@ public class JavaStreams {
         System.out.println("Sorted by name (alphabetical):"+personList.stream().sorted(Comparator.comparing(Person::getName)).toList());
         System.out.println("Sorted by age (descending): "+personList.stream().sorted(descendingAge).toList());
     }
+
 }
